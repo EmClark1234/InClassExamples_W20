@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         // Before this function, the screen is empty.
         setContentView(R.layout.activity_main_linear);
 
+
         //Now that the screen was loaded, use findViewByid() to
         // get load the objects in Java:
         TextView firstText = findViewById(R.id.firstText);
